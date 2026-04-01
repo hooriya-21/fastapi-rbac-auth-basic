@@ -1,2 +1,21 @@
-# fastapi-rbac-auth-basic
-FastAPI Role-Based Authentication using JWT
+# FastAPI Role-Based Authentication
+
+## Features
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+- Admin and User APIs
+
+## Endpoints
+- POST /login
+- GET /admin-data
+- GET /user-data
+
+## How it works
+1. User logs in and gets JWT token
+2. Token contains role
+3. APIs are protected based on role
+
+## Future Improvements
+- Password hashing
+- Token expiration
+- Database integration
