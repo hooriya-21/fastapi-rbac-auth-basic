@@ -14,7 +14,8 @@
 1. User logs in and gets JWT token
 2. Token contains role
 3. APIs are protected based on role
-
+# Login API - verifies user and returns JWT token
+# Role-based dependency to restrict access
 ## Future Improvements
 - Password hashing
 - Token expiration
